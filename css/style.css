@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+#topheader{
+	background-color: #ecf0f0;
+	top-padding: 5px 0;
+	text-align: right;
+}
+
+#topheader a{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+#menu{
+	background-color: #fff;
+}
+
+#hero{
+	background-image: url("../img/hero-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#hero .overlay{
+	padding: 10% 0;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.90), transparent)
+}
+
+#hero h2{
+	font-size: 50px;
+	font-weight: 800;
+}
+
+#hero h3{
+	font-size: 22px;
+	color: #5b6471;
+	font-weight: 400;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#hero a{
+	color: #1c222e;
+	font-size: 15px;
+	font-weight: 800;
+	border-bottom: 3px solid #ff5a2d;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+#hero a:hover{
+	color: #ff5a2d;
+}
+
+#business{
+	text-align: center;
+}
+#business h2{
+	font-size: 25px;
+	font-weight: 800;
+	padding-bottom: 15px;
+}
+
+#business p{
+	color: #5b6451;
+	max-width: 60%;
+	margin: auto;
+}
+#business .btn-naranja{
+	margin-top: 40px;
+}
+#business article:first-child{
+	border-right: 1px solid #dfc6cd;
+}
+
+#business article{
+	padding: 40px 0;
+}
+
+#latest{
+	background-color: #ECF0F0;
+}
+#latest .info{
+	padding: 5%;
+}
+
+#latest h4{
+	color: #5b6471;
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Walsheim","Helvetica","Arial",sans-serif;
+    line-height: 26px;
+}
+
+#latest h2{
+	color: #1c222e;
+    font-size: 35px;
+    margin: 1px 0 2px;
+	font-weight: 900;
+}
+
+#latest p{
+	font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Garamond","Georgia",serif;
+    letter-spacing: -0.01px;
+    color: #5b6471;
+    margin: 10px 0;
+    max-width: 75%;
+}
+
+#latest a{
+	color: #1c222e;
+	font-size: 15px;
+	font-weight: 800;
+	border-bottom: 3px solid #ff5a2d;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+#latest a:hover{
+	color: #ff5a2d;
+}
+
+#latest article:first-child{
+	background-image: url("../img/Office-Background-1189964480_1257x838.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	max-width: 100%;
+}
+
+
+
+#newyork h2{
+	font-family: "eb-garamond";
+	color: #1c222e;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 38px;
+	text-align: center;
+	padding: 5% 5%;
+}
+
+#awards h4{
+	color: #ff5a2d;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.circle{
+	width:190px; 
+	height: 190px;
+	line-height: 20px;
+	border-radius: 100px;
+	background-color: rgba(236, 240, 240,1.0);
+	color: rgb(28, 34, 46);
+	align-content: center;
+	justify-content: center;
+	margin: 1px;
+}
+
+#awards p{
+	text-align: center;
+	padding-top: 60px;
+	font-size: 20px;
+	color: rgb(28, 34, 46);
+	justify-content: center;
+	font-family: "Walsheim","Helvetica","Arial",sans-serif;
+}
+
+#awards h6{
+	color: #ff5a2d;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bolder;
+	font-family: "Walsheim","Helvetica","Arial",sans-serif;
+}
+
+#awards h5{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 75px;
+	font-weight: 900;
+	color: #fff;
+	background-color: #ff5a2d;
+	width:190px; 
+	height: 190px;
+	line-height: 20px;
+	border-radius: 100px;
+}
+
+#awards{
+	padding: 8%;
+}
+
+#latestNews a{
+	font-size: 15px;
+	font-weight: 800;
+	border-bottom: 3px solid #ff5a2d;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: #1c222e;
+}
+
+#latestNews .back-color{
+	background-color: #ecf0f0;
+}
+
+#newYork{
+	margin-bottom: 80px;
+}
+
+#newYork img{
+	height: 40px;
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#newYork .quoteNewYorkTime h2{
+	font-family:'EB Garamond';
+	font-style: italic;
+	font-size: 33px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#newYork .companies h4{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #cfd4d4;
+
+}
+
+#footer{
+	background-color: rgb(28, 34, 46);
+    color: rgb(255, 255, 255);
+	padding: 3%;
+}
+
+#footer2{
+	background-color: rgb(28, 34, 46);
+    color: rgb(255, 255, 255);
+	padding: 3%;
+	border-top: 2px solid #272d38;
+}
+
+.social{
+	text-align: center;
+	line-height: 8;
+	
+}
+
+.social i{
+	background-color: #313844;
+    color: #fff;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 100%;
+	font-size: 20px;
+}
+
+.social i:hover{
+	background-color: #ff5a2d;
+	color: #fff;
+}
+
+#footer2 a{
+   margin-right: 20px;
+    font-size: 16px;
+    line-height: 5;
+    font-weight: normal;
+    letter-spacing: 0.2;
+    color: #5b6471;
+	text-decoration: none;
+}
+
+#formulario{
+	background-color: rgba(236, 240, 240,1.0);
+	align-content: center center;
+	border: none;
+}
+
+#form-contact{
+	padding: 5%;
+}
+
+.form-control{
+	border: 0px;
+	border-radius: 0px;
+	background-color: #fff;
+	color: #1c222e;
+	font-size: 15px;
+}
